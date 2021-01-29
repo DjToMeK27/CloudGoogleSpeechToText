@@ -127,7 +127,7 @@ class MainActivity : AppCompatActivity() {
                 if (isFirstRequest.getAndSet(false)) {
                     builder.streamingConfig = StreamingRecognitionConfig.newBuilder()
                             .setConfig(RecognitionConfig.newBuilder()
-                                    .setLanguageCode("sl-SL")
+                                    .setLanguageCode("en-US")
                                     .setEncoding(RecognitionConfig.AudioEncoding.LINEAR16)
                                     .setSampleRateHertz(16000)
                                     .build())
